@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    
+    
+    
+}
+.column {
+    float: left;
+    width: 36%;
+    margin-top: 6px;
+    padding: 259px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2 {
+    color: white;
+}
+.dondias {
+    color: white;
+}
+.pon {
+    color: white;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 40px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.nav{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: 'Tinos', serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+.nav-item :hover {
+    color: red;
+}
